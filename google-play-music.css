@@ -1,0 +1,31 @@
+// Google Play Music Dark
+// Originally from https://github.com/zacharytamas/user-styles/
+
+// Applies to: https://play.google.com/music/*
+
+body.material {
+  background-color: #181818;
+  color: #fff;
+}
+
+#material-app-bar {
+  background-color: #e65100;
+}
+
+.cluster .header .cluster-title {
+  color: #A9ABAE;
+}
+
+.material .cluster-text-protection,
+.material .cluster-text-protection::before {
+  background-color: #282828;
+}
+
+.material .recommended-header {
+  color: #fff;
+}
+
+#player {
+  background-color: #E65100;
+  color: white;
+}
