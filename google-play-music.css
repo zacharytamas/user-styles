@@ -5,22 +5,31 @@
   Applies to: https://play.google.com/music/*
 */
 
+body {
+  --color-darkest: #181818;
+  --color-dark: #282828;
+  --color-orange-bright: #e65100;
+  --color-grey: #a9abae;
+
+  --color-grey-icon: #ADAFB2;
+}
+
 body.material {
-  background-color: #181818;
+  background-color: var(--color-darkest);
   color: #fff;
 }
 
 #material-app-bar {
-  background-color: #e65100;
+  background-color: var(--color-orange-bright);
 }
 
 .cluster .header .cluster-title {
-  color: #A9ABAE;
+  color: var(--color-grey);
 }
 
 .material .cluster-text-protection,
 .material .cluster-text-protection::before {
-  background-color: #282828;
+  background-color: var(--color-dark);
 }
 
 .material .recommended-header {
@@ -28,6 +37,27 @@ body.material {
 }
 
 #player {
-  background-color: #E65100;
+  background-color: var(--color-orange-bright);
+  color: white;
+}
+
+#nav {
+  background: var(--color-dark);
+}
+
+#nav .nav-section-header {
+  color: var(--color-grey);
+}
+
+/* Sidebar text color */
+#nav .nav-item-container,
+#nav iron-icon {
+  color: var(--color-grey-icon);
+}
+
+#nav_collections .nav-item-container:focus, 
+.nav-item-container:focus, 
+.nav-item-container:hover {
+  background-color: inherit;
   color: white;
 }
