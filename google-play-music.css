@@ -5,7 +5,7 @@
   Applies to: https://play.google.com/music/*
 */
 
-body {
+:root {
   --color-darkest: #181818;
   --color-dark: #282828;
   --color-orange-bright: #e65100;
